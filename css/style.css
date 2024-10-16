@@ -1,0 +1,149 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.container {
+    max-width: 90%;
+    height: 100%;
+    margin: auto;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+}
+th, td {
+    height: 50px;
+}
+p {
+    color: white;
+    margin: 2px 0;
+}
+td div > p:first-of-type {
+    text-align: right;
+    font-weight: bold;
+}
+td div > p:nth-of-type(2) {
+    font-weight: bold;
+    font-size: 20px;
+}
+td div > p:nth-of-type(3) {
+    font-weight: bold;
+}
+
+td div {
+    border-radius: 10px;
+    border: 3px solid #fff;
+    padding: 2px;
+}
+
+.blue {
+    background-color: #3b56a6;
+}
+.yellow {
+    background-color: #d4ba0e;
+}
+.purple {
+    background-color: #7b5ba7;
+}
+.green {
+    background-color: #38b66b;
+}
+.pink {
+    background-color: #f27eb2;
+}
+.orange {
+    background-color: #f58132;
+}
+.light-blue {
+    background-color: #6bc6ef;
+}
+.red {
+    background-color: #ee3432;
+}
+.dark-red {
+    background-color: #a62439;
+}
+
+.blue:hover {
+    background-color: #fff;
+    color: #3b56a6;
+    border-color: #3b56a6;
+}
+.blue:hover p {
+    color: #3b56a6;
+}
+.yellow:hover {
+    background-color: #fff;
+    color: #d4ba0e;
+    border-color: #d4ba0e;
+}
+.yellow:hover p {
+    color: #d4ba0e;
+}
+.purple:hover {
+    background-color: #fff;
+    color: #7b5ba7;
+    border-color: #7b5ba7;
+}
+.purple:hover p {
+    color: #7b5ba7;
+}
+.green:hover {
+    background-color: #fff;
+    color: #38b66b;
+    border-color: #38b66b;
+}
+.green:hover p {
+    color: #38b66b;
+}
+.pink:hover {
+    background-color: #fff;
+    color: #f27eb2;
+    border-color: #f27eb2;
+}
+.pink:hover p {
+    color: #f27eb2;
+}
+.orange:hover {
+    background-color: #fff;
+    color: #f58132;
+    border-color: #f58132;
+}
+.orange:hover p {
+    color: #f58132;
+}
+.light-blue:hover {
+    background-color: #fff;
+    color: #6bc6ef;
+    border-color: #6bc6ef;
+}
+.light-blue:hover p {
+    color: #6bc6ef;
+}
+.red:hover {
+    background-color: #fff;
+    color: #ee3432;
+    border-color: #ee3432;
+}
+.red:hover p {
+    color: #ee3432;
+}
+.dark-red:hover {
+    background-color: #fff;
+    color: #a62439;
+    border-color: #a62439;
+}
+.dark-red:hover p {
+    color: #a62439;
+}
+.footer {
+    background: linear-gradient(to right, #3b56a6, #d4ba0e, #7b5ba7, #38b66b, #f27eb2, #f58132, #6bc6ef, #ee3432, #a62439);
+    margin-top: 50px;
+    padding: 15px 0;
+    text-align: center;
+    font-weight: bold;
+}
